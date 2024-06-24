@@ -1,0 +1,52 @@
+.cards {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-hover {
+    display: flex;
+    justify-content: center;
+    gap: 26px;
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -37px;
+}
+
+.button-hover {
+    border: none;
+    background-color: white;
+}
+
+.cards:hover .card-hover {
+    bottom: 7px;
+}    
+
+.cards::before {
+    content:"";
+    height: 2px;
+    background-color: #46A358;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    z-index: 1;
+}
+
+.cards:hover::before {
+    display: block;
+}
+
+ .sale {
+    position: absolute;
+    top: 14px;
+    left: 0;
+    background-color: #46A358;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px;
+    z-index: 2;
+ }

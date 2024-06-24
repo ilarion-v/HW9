@@ -1,0 +1,131 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.side-menu {
+   padding-top: 14px;
+   padding-left: 18px;
+}
+
+.categories {
+    margin: 0;
+    padding-bottom: 7px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.link-categories {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    text-decoration: none;
+    color: black;
+    display: block;
+   }
+    
+.active-link-categories {
+    font-weight: 700;
+    color: #46A358;
+    }
+
+.side-link {
+    padding-left: 10px;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 306px;
+    background-color:#FBFBFB;
+}
+
+.main-cards {
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 95px;
+}
+
+.cards-content {
+    width: 258px;
+    float: left;
+}
+
+.cards {
+    width: 258px;
+    background-color: #FBFBFB;
+    float: left;
+}
+
+.cards-content:nth-child(3n) {
+    margin-right: 0;
+}
+
+.right-side { 
+    width: 840px;
+}
+
+.name {
+    width: 258px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    margin: 0;
+    margin-top: 12px;
+    float: left;
+}
+
+.price {
+    width: 258px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0;
+    margin-top: 6px;
+    float: left;
+    color: #46A358;
+}
+
+.imeg-main {
+    float: left;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.link-main-bottom {
+   display: flex;
+   justify-content: end;
+    gap: 10px;
+    margin-top: 90px;
+}
+
+.link-padg-number {
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    align-content: center;
+    text-align: center;
+}
+    
+.link-padg-number:first-child {
+    background-color: #46A358;
+    color: white;
+}
+
+.link-padg-number:last-child {
+    margin-right: 0;
+} 

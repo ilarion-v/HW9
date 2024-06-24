@@ -1,0 +1,122 @@
+.main-more {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 92px;
+    margin-bottom: 138px;
+}
+
+.find-more {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(white 15%, #FBFBFB 10%, #FBFBFB 75%);
+}
+
+.read-more { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-more-content {
+   display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: right;
+}
+
+.blog-top {
+    width: 160px;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 89px;
+    margin-bottom: 0;
+
+}
+
+.blog-top-second {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 9px;
+    margin-bottom: 0;
+   
+}
+
+.blog-button {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 140px;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #46A358;
+    color: white;
+    border-radius: 6px; 
+    border: 0;
+    margin-top: 25px;
+   }
+  
+.blog-head {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.blog-head-bottom {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.read-more-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-span {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blog-posts {
+    font-size: 20px;
+    font-weight: 700;
+    width: 202px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.blog-posts-text {
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.read-more-bottom {
+    width: 89px;
+    height: 17px;
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 9px;
+    align-items: center;
+    color: #000;
+    gap: 5px;
+}
+
+.paragraph {
+    width: 268px;
+    background-color: #FBFBFB;
+    padding-top: 9px;
+    padding-left: 15px;
+    padding-right: 11px;
+    padding-bottom: 12px;
+}
